@@ -1,0 +1,10 @@
+# NEVER commit real keys — keep .env out of git. Commit .env.example only.
+.env
+content.db
+*.sqlite
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.pytest_cache/
